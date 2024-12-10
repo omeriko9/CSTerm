@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.cbCOM = new System.Windows.Forms.ComboBox();
             this.cbBaud = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.cbCOM = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.btnCancel = new System.Windows.Forms.Button();
             this.btnOK = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
@@ -49,24 +49,7 @@
             this.groupBox1.Size = new System.Drawing.Size(200, 214);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "groupBox1";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(7, 20);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(26, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Port";
-            // 
-            // cbCOM
-            // 
-            this.cbCOM.FormattingEnabled = true;
-            this.cbCOM.Location = new System.Drawing.Point(93, 17);
-            this.cbCOM.Name = "cbCOM";
-            this.cbCOM.Size = new System.Drawing.Size(101, 21);
-            this.cbCOM.TabIndex = 1;
+            this.groupBox1.Text = "Connection";
             // 
             // cbBaud
             // 
@@ -84,6 +67,23 @@
             this.label2.Size = new System.Drawing.Size(32, 13);
             this.label2.TabIndex = 2;
             this.label2.Text = "Baud";
+            // 
+            // cbCOM
+            // 
+            this.cbCOM.FormattingEnabled = true;
+            this.cbCOM.Location = new System.Drawing.Point(93, 17);
+            this.cbCOM.Name = "cbCOM";
+            this.cbCOM.Size = new System.Drawing.Size(101, 21);
+            this.cbCOM.TabIndex = 1;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(7, 20);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(26, 13);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Port";
             // 
             // btnCancel
             // 
